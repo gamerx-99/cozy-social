@@ -94,12 +94,12 @@ export const SHOE_COLORS = [
 ];
 
 export const ACCESSORIES = [
-  { id: 'none', name: 'ไม่ใส่', icon: '—' },
-  { id: 'glasses', name: 'แว่นตา', icon: '◉' },
-  { id: 'headphones', name: 'หูฟัง', icon: '♫' },
-  { id: 'hat', name: 'หมวก', icon: '⌒' },
-  { id: 'bow', name: 'โบว์', icon: '✿' },
-  { id: 'flower', name: 'ดอกไม้', icon: '❀' },
+  { id: 'none', name: 'ไม่ใส่', icon: '—', offset: { x: 0, y: 0 } },
+  { id: 'glasses', name: 'แว่นตา', icon: '◉', offset: { x: 0, y: 0 } },
+  { id: 'headphones', name: 'หูฟัง', icon: '♫', offset: { x: 0, y: 0 } },
+  { id: 'hat', name: 'หมวก', icon: '⌒', offset: { x: 0, y: -10 } },
+  { id: 'bow', name: 'โบว์', icon: '✿', offset: { x: 0, y: -14 } },
+  { id: 'flower', name: 'ดอกไม้', icon: '❀', offset: { x: 0, y: -14 } },
 ];
 
 const DEFAULTS = {
